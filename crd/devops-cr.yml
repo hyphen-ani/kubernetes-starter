@@ -1,0 +1,9 @@
+kind: DevOpsBatch
+apiVersion: runelock.io/v1
+metadata:
+  name: rune-secret
+spec:
+  name: db/pass
+  duration: 30min
+  platform: PSQL
+  mode: prod
